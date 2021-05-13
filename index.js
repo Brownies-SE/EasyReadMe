@@ -1,5 +1,4 @@
 // TODO: Include packages needed for this application
-const getMarkdown = require("./utils/generateMarkdown");
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -11,6 +10,11 @@ inquirer
       type: "input",
       name: "github",
       message: "What is your github username? ",
+    },
+    {
+      type: "input",
+      name: "githubURL",
+      message: "What is your githubURL? ",
     },
     {
       type: "input",
@@ -34,8 +38,19 @@ inquirer
     },
     {
       type: "input",
-      name: "License",
+      name: "projectImageName",
+      message: "Link the image name: ",
+    },
+    {
+      type: "input",
+      name: "imageURL",
+      message: "Link the imageURL: ",
+    },
+    {
+      type: "list",
+      name: "getLicense",
       message: "Name all Licenses: ",
+      choices: ["MIT", "GPL v3", "Mozilla"],
     },
     {
       type: "input",
@@ -44,25 +59,19 @@ inquirer
     },
     {
       type: "input",
-      name: "test",
+      name: "tests",
       message: "Enter tests: ",
     },
     {
       type: "input",
-      name: "questions",
-      message: "Enter Questions: ",
+      name: "email",
+      message: "Enter email: ",
     },
   ])
 
   .then((response) => {
     const pageContent = generateMarkdown(response);
     fs.writeFile("README.md", pageContent, (err) =>
-      err ? console.log(err) : console.log("It worked")
+      err ? console.log(err) : console.log("Generating")
     );
   });
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();

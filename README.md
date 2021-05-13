@@ -1,23 +1,31 @@
-# EasyReadMe
-  This project is to use node.js and using the built in library 'inquirer', create a command line application to create a readme file
+# Good-ReadME
+
+  # Description 
+  This commandline application steps you through creating the best readme youve ever made
 
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributors](#contributors)
-  * [Test](#test)
+  * [Test](#testsclear)
   * [Questions](#questions)
 
   # Installation
-  npm init -y npm i inquirer then navigate to the folder where the index.js is. then type node index.js
+  none
   # Usage
-  This project is used for creating a readme on the command line
+  Creating readme 
+
+  ![Yeah]yes
   # License
   undefined
   # Contributors
-  I am the only contributor
+  I am the sole contributor
   # Tests
-  undefined
+  None at this time
   # Questions
-  If there are any questions please contact brownjoshalan@gmail.com
+  Brownies-SE 
+
+  https://github.com/Brownies-SE 
+
+  brownjoshalan@gmail.com
