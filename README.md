@@ -1,7 +1,7 @@
-# Good-ReadME
+# lk
 
   # Description 
-  This commandline application steps you through creating the best readme youve ever made
+  lk
 
   # Table of Contents
   * [Installation](#installation)
@@ -12,20 +12,20 @@
   * [Questions](#questions)
 
   # Installation
-  none
+  lk
   # Usage
-  Creating readme 
+  lk 
 
-  ![Yeah]yes
+  ![lk]lk
   # License
-  undefined
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
   # Contributors
-  I am the sole contributor
+  lk
   # Tests
-  None at this time
+  lk
   # Questions
-  Brownies-SE 
+  lk 
 
-  https://github.com/Brownies-SE 
+  Checkout my github account: lk 
 
-  brownjoshalan@gmail.com
+  If you have any questions, feel free to contact me: lk

@@ -50,7 +50,7 @@ inquirer
       type: "list",
       name: "getLicense",
       message: "Name all Licenses: ",
-      choices: ["MIT", "GPL v3", "Mozilla"],
+      choices: ["MIT", "GPLv3", "Mozilla"],
     },
     {
       type: "input",
