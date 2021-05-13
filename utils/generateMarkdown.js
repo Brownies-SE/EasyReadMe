@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == "MIT") {
-    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`;
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else if (license == "GPLv3") {
     return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
   } else if (license == "Mozilla") {
@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   ${data.installation}
   # Usage
   ${data.usage} \n
-  ![${data.projectImageName}]${data.imageURL}
+  <img src= '${data.imageURL}'> \n
   # License
   ${markdown}
   # Contributors
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   # Questions
   ${data.github} \n
   Checkout my github account: ${data.githubURL} \n
-  If you have any questions, feel free to contact me: ${data.email}
+  If you have any questions feel free to contact me: ${data.email}
 `;
 }
 

@@ -14,12 +14,12 @@ inquirer
     {
       type: "input",
       name: "githubURL",
-      message: "What is your githubURL? ",
+      message: "What is the link to your githubURL? ",
     },
     {
       type: "input",
       name: "title",
-      message: "What is the name of the project? ",
+      message: "What is the name of your current project? ",
     },
     {
       type: "input",
@@ -34,17 +34,12 @@ inquirer
     {
       type: "input",
       name: "usage",
-      message: "What is the project used for: ",
-    },
-    {
-      type: "input",
-      name: "projectImageName",
-      message: "Link the image name: ",
+      message: "What is this project used for: ",
     },
     {
       type: "input",
       name: "imageURL",
-      message: "Link the imageURL: ",
+      message: "Link image path to the screenshot: ",
     },
     {
       type: "list",
@@ -55,17 +50,17 @@ inquirer
     {
       type: "input",
       name: "contributors",
-      message: "Name all contributors: ",
+      message: "Name all contributors of your project: ",
     },
     {
       type: "input",
       name: "tests",
-      message: "Enter tests: ",
+      message: "What tests were used: ",
     },
     {
       type: "input",
       name: "email",
-      message: "Enter email: ",
+      message: "Please enter your email: ",
     },
   ])
 

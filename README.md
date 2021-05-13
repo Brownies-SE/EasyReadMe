@@ -1,7 +1,7 @@
-# lk
+# Good-ReadME
 
   # Description 
-  lk
+  Using this commandline application, the user can input little information and be presented with a quality readme file
 
   # Table of Contents
   * [Installation](#installation)
@@ -12,20 +12,21 @@
   * [Questions](#questions)
 
   # Installation
-  lk
+  First you have to install the dependecies, on the command line include npm init -y, then install inquirer using npm i inquirer, then to run the application type node index.js in the terminal
   # Usage
-  lk 
+  This project is used for creating the best possible readme file 
 
-  ![lk]lk
+  <img src= 'https://drive.google.com/file/d/1U8-y2WQoZLJ2X4g9lykMpp5PRKBjdGIg/view?usp=sharing'> 
+
   # License
-  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Contributors
-  lk
+  I am the sole contributor of the application
   # Tests
-  lk
+  None at this time
   # Questions
-  lk 
+  Brownies-SE 
 
-  Checkout my github account: lk 
+  Checkout my github account: https://github.com/Brownies-SE 
 
-  If you have any questions, feel free to contact me: lk
+  If you have any questions feel free to contact me: brownjoshalan@gmail.com
