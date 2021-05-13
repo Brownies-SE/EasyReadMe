@@ -8,7 +8,7 @@
   * [Usage](#usage)
   * [License](#license)
   * [Contributors](#contributors)
-  * [Test](#testsclear)
+  * [Test](#tests)
   * [Questions](#questions)
 
   # Installation
@@ -16,7 +16,7 @@
   # Usage
   This project is used for creating the best possible readme file 
 
-  <img src= 'https://drive.google.com/file/d/1U8-y2WQoZLJ2X4g9lykMpp5PRKBjdGIg/view?usp=sharing'> 
+  <img src= 'https://raw.githubusercontent.com/Brownies-SE/EasyReadMe/main/images/Capture.PNG'> 
 
   # License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
